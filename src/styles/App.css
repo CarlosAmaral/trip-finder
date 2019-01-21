@@ -1,0 +1,196 @@
+@import '~antd/dist/antd.css';
+@import "./variables.css";
+@import "./font-imports.css";
+* {
+    font-family: var(--font);
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 20px 30px;
+}
+
+/* start:: SEARCH COMPONENT STYLES */
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-wrapper {
+    display: flex;
+    justify-content: column;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btns-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btns-container button {
+    color: var(--color-white);
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+}
+
+.btns-container button:hover,
+.btns-container button:focus {
+    color: var(--color-white);
+    border: none;
+}
+
+.route-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.text-title {
+    color: var(--color-black);
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-right: 20px;
+}
+
+.text-desc {
+    color: var(--color-red);
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+}
+.ant-list-item{
+    padding: 15px 0;
+}
+
+.vertical-border {
+    width: 1px;
+    background-color: var(--color-black);
+    height: 40px;
+    margin: 10px auto;
+}
+
+button.ant-btn.btn-submit {
+    background-color: var(--color-red);
+}
+
+button.ant-btn.btn-back {
+    background-color: var(--color-medium-grey);
+}
+
+button.ant-btn.btn-continue {
+    background-color: var(--color-green);
+}
+
+.btns-container button {
+    margin: 0 10px;
+}
+
+.form-item-title {
+    color: var(--color-black);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.ant-select-selection-selected-value {
+    font-weight: bold;
+    color: var(--color-black);
+}
+
+.ant-radio-button-wrapper-checked span {
+    color: var(--color-white);
+}
+
+label.ant-radio-button-wrapper.ant-radio-button-wrapper-checked {
+    background-color: var(--color-red);
+    font-weight: bold;
+    color: var(--color-grey);
+    border-color: var(--color-grey);
+    box-shadow: none;
+}
+
+label.ant-radio-button-wrapper {
+    width: 125px;
+    text-align: center
+}
+
+li.ant-select-dropdown-menu-item {
+    color: var(--color-black);
+}
+
+li.ant-select-dropdown-menu-item.ant-select-dropdown-menu-item-active {
+    background-color: var(--color-red);
+}
+
+/* end:: SEARCH COMPONENT STYLES */
+
+/* start: RESULTS COMPONENT STYLES */
+
+.header-result span {
+    padding-bottom: 15px;
+    color: var(--color-black);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.arrow-style {
+    padding: 0 20px;
+}
+
+.description-title {
+    color: var(--color-black);
+    font-weight: bold;
+    padding-right: 10px;
+}
+.description-subtitle {
+    color: var(--color-red);
+    font-weight: bold;
+}
+
+.list-container, .list-footer{
+    display: flex;
+    justify-content: center;
+}
+.description-result{
+    display: flex;
+}
+
+.results-container {
+    padding: 30px;
+}
+
+.results-container span.ant-divider-inner-text {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+.list-footer{
+    margin-top: 30px;
+}
+.list-footer div:first-child{
+    padding-right:30px;
+}
+.list-footer-title{
+    color: var(--color-black);
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.list-footer-desc{
+    color: var(--color-red);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* end: RESULTS COMPONENT STYLES */
