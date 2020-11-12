@@ -322,7 +322,7 @@ const mapDispatchToProps = {
   updateForm
 };
 
-const SearchForm = Form.create<IProps>()(Search);
+const SearchForm = Form.create<IProps & FormComponentProps>()(Search);
 
 export default connect(
   mapStateToProps,

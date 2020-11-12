@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 
 export interface IProps {
-  path: any;
+  path?: any;
 }
 
 class Results extends React.Component<IProps> {
