@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "3.26.20",
-    "lodash": "4.17.20",
+    "lodash": "4.17.21",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-icons": "3.11.0",
