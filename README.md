@@ -6,3 +6,7 @@ Trip Finder is a React Application with Redux and TypeScript that allows users t
 - Run ` yarn install` or `npm install`;
 - Run `yarn start` or `npm start` to start your Development server;
 - Open your browser on localhost:3000
+
+### Video Demo
+
+[![Video](https://vimeo.com/313706713)
