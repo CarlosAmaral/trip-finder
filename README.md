@@ -9,4 +9,4 @@ Trip Finder is a React Application with Redux and TypeScript that allows users t
 
 ### Video Demo
 
-[![Video](https://vimeo.com/313706713)
+[![Video]](https://vimeo.com/313706713)
